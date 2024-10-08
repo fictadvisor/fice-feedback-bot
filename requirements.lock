@@ -9,11 +9,9 @@
 #   generate-hashes: false
 #   universal: false
 
--e file:.
 aiofiles==23.2.1
     # via aiogram
 aiogram==3.13.0
-    # via fice-feedback-bot
 aiohappyeyeballs==2.4.0
     # via aiohttp
 aiohttp==3.10.5
@@ -29,11 +27,8 @@ babel==2.16.0
     # via fluent-runtime
 certifi==2024.8.30
     # via aiogram
-fluent==0.10.0
-    # via fice-feedback-bot
-fluent-runtime==0.4.0
-    # via fice-feedback-bot
-fluent-syntax==0.19.0
+fluent-runtime==0.3.1
+fluent-syntax==0.18.1
     # via fluent-runtime
 frozenlist==1.4.1
     # via aiohttp
@@ -47,17 +42,15 @@ multidict==6.1.0
     # via yarl
 pydantic==2.8.2
     # via aiogram
-    # via fice-feedback-bot
 pydantic-core==2.20.1
     # via pydantic
 python-dotenv==1.0.1
-    # via fice-feedback-bot
 pytz==2024.2
+    # via fluent-runtime
+six==1.16.0
     # via fluent-runtime
 typing-extensions==4.12.2
     # via aiogram
-    # via fluent-runtime
-    # via fluent-syntax
     # via pydantic
     # via pydantic-core
 yarl==1.11.1
